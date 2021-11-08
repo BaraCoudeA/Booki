@@ -1,0 +1,124 @@
+@media (min-width: 992px){
+
+
+header{
+    display: flex;
+   justify-content: space-between;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li{
+    margin-right: 15px;
+}
+
+#logo{
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+}
+
+.logo_img{
+    width: 80px;
+    height: auto;
+}
+
+#puce_filtres ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+    margin-left:10%;
+    margin-right: 30%;;
+  
+}
+
+
+
+.filtres{
+    display: flex;
+    margin: auto;
+    align-content: flex-start;
+    float:left ;
+}
+aside{
+
+    background-color: #f2f2f2;
+    display : block;
+    text-align: center;
+    float: right;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 20%;
+    height: 85%;
+    flex-direction: column;
+    max-height: 85%;
+    max-width: 20%;
+    
+
+ }
+ .titre_marseille{
+     padding: 10px 0px 10px 0px;
+ } 
+
+#bloc_hebergements{
+    background-color: #f2f2f2;
+    display: block;
+    max-width: 60%;
+    max-height: 85%;
+    margin-bottom: 10%;
+    text-align: center;
+    
+
+    
+}
+footer {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+    
+}
+footer ul {
+    list-style-type: none;
+}
+
+
+article{
+    display:block;
+    
+}
+
+
+aside img{
+    width: 35%;
+    height: 35%;
+    flex-direction: column;
+    justify-content: center;
+}
+#chambres_marseille img{
+    max-width:20%;
+    max-height:20%;
+
+   
+   
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+   
+
+
+article img{
+    max-height: 10%;
+    max-width: 10%;
+    display:flex;
+}
+
+
+}
