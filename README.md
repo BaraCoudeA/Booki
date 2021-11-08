@@ -1,2 +1,118 @@
 # Booki
 Projet 2 Booki
+
+
+HTML
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+	    <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+        <title>Booki</title>
+    </head>
+    <body>
+        <div id="bloc_page">
+            <header>
+                <div id="logo">
+                    <img src="assets/html/img/Logo/Booki.png" alt="Logo Booki" class="logo_img" />
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#hebergements">Hébergements</a></li>
+                        <li><a href="#activites">Activités</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div>
+                <div>
+                    <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+                    <p>En plein centre ville ou en pleine nature</p>
+                    <div id="search">
+                        <!--barre de recherche-->
+                    </div>
+                    <div id="bloc_filtres">
+                        <div>
+                            <h2 class="filtres">Filtres</h2>
+                        </div>
+                        <div id="puce_filtres">
+                            <ul>
+                                <li><a href="#">Économique</a></li>
+                                <li><a href="#">Familial</a></li>
+                                <li><a href="#">Romantique</a></li>
+                                <li><a href="#">Animaux autorisés</a></li>
+                            </ul>
+                        </div>    
+                        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                    </div>
+                    
+                </div>    
+            </div>
+            <section>
+                <aside>
+                    <h2 class="titre_h2">Les plus populaires</h2>
+                    <div id="img_populaires">
+                        <p><a href="#"><img src="assets/html/img/Hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" class="image_responsive"/><p>Hôtel Le soleil du matin</p><p>Nuit à partir de 128€</p></a>
+                        <a href="#"><img src="assets/html/img/Hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" class="image_responsive"/><p>Au cœur de l'eau Chambres d'hôtes</p><p>Nuit à partir de 71€</p></a>
+                        <a href="#"><img src="assets/html/img/Hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" class="image_repsonsive"/><p>Hôtel Tout bleu et Blanc</p><p>Nuit à partir de 68€</p></a></p>
+                    </div>
+                </aside>
+                <div id="bloc_hebergements">
+                    <div id="titre_marseille">
+                        <h2 class="titre_marseille">Hébergements à Marseille</h2>
+                    </div>    
+                    <div id="chambres_marseille">
+                        <p><a href="#"><img src="assets/html/img/Hebergements\4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"/><p>Auberge La Cannebière</p><p>Nuit à partir de 25€</p></a>
+                        <a href="#"><img src="assets/html/img/Hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"/><p>Hôtel du port</p><p>Nuit à partir de 52€</p></a>
+                        <a href="#"><img src="assets/html/img/Hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"/><p>Hôtel Les Mouettes</p><p>Nuit à partir de 76€</p></a>
+                        <a href="#"><img src="assets/html/img/Hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"/><p>Hôtel de la mer</p><p>Nuit à partir de 46€</p></a>
+                        <a href="#"><img src="assets/html/img/Hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"><p>Auberge Le Panier</p><p>Nuit à partir de 23€</p></a>
+                        <a href="#"><img src="assets/html/img/Hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"/><p>Hôtel chez Amina</p><p>Nuit à partir de 96€</p></a></p>
+                    </div>
+                </div>
+                
+            </section>
+            <article>
+                <div id="bloc_Activites">
+                    <div>
+                        <h2 class="activites">Activités à Marseille</h2>
+                    </div>
+                    <div class="img_marseille">
+                        <a href="#"><img src="assets/html/img/Activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"/><p>Vieux Port</p></a>
+                        <a href="#"><img src="assets/html/img/Activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"/><p>Fort de Pomègues</p></a>
+                        <a href="#"><img src="assets/html/img/Activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"/><p>Îles du Frioul</p></a>
+                        <a href="#"><img src="assets/html/img/Activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"/><p>Parc National des Calanques</p></a>
+                        <a href="#"><img src="assets/html/img/Activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"><p>Notre-Dame-de-la-Garde</p></a>
+                        <a href="#"><img src="assets/html/img/Activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"/><p>Parc Longchamp</p></a></p>
+                    </div>
+                </div>    
+            </article>
+        </div>
+        <footer>
+            <div class="footer">
+                <h3>A propos</h3>
+                <ul>
+                    <li><a href="#">Fonctionnement du site</a></li>
+                    <li><a href="#">Conditions générales de vente</a></li>
+                    <li><a href="#">Données et confidentialité</a></li>
+                </ul>
+            </div>
+            <div id="footer">
+                <h3>Nos hébergements</h3>
+                <ul>
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Soumettre votre hôtel</a></li>
+                </ul>
+            </div>
+            <div id="footer">
+                <h3>Assistance</h3>
+                <ul>
+                    <li><a href="#">Centre d'aide</a></li>
+                    <li><a href="#">Nous Contacter</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
